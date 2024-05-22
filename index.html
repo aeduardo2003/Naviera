@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors" />
+    <meta name="generator" content="Hugo 0.83.1" />
+    <title>Pagina Principal</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/" />
+    <link rel="icon" type="image/x-icon" href="/images/ico.svg">
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a href="#" class="logo"><i class="fas fa-ship"></i>Ripa.</a>
+                <!--<a class="navbar-brand" href="#">Carousel</a>-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <!--==========DESHABILITADO DE LA VISTA==================================-->
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-current="page" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                        </li>
+                    </ul>
+                    <!--============================================-->
+                    <form class="d-flex mb-2 mb-md-0">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--=======SLIDER======-->
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!--============================================-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder2-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+
+                    <img class="bd-placeholder2-img" width="100%" height="100%" src="images/slide1.JPG" alt="" />
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="text-carrusel">BIENVENIDOS AL RIPA </h1>
+                            <span class="slide-spam">REGLAMNETO PARA PREVENIR ABORDAJES</span>
+                            <p class="text-carrusel">
+                                (1972)
+                            </p>
+                            <p>
+                                <a class="btn btn-lg btn-success" href="https://www.imo.org/es/About/Conventions/Paginas/COLREG.aspx">Saber mas</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--============================================-->
+                <div class="carousel-item">
+                    <svg class="bd-placeholder2-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+
+                    <img class="bd-placeholder2-img" width="100%" height="100%" src="images/slide2.JPG" alt="" />
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="text-carrusel">Reglamento para Prevenir Abordajes en el Mar</h1>
+                            <p class="text-carrusel">
+                                El RIPA es aquel reglamento por el cual se establecen las reglas de navegacion que todos los buques y embarcaciones en alta mar, asi como en todas las aguas
+                                que conectadas a ella y sean navegables por buques de navegacion maritima.
+                            </p>
+                            <p><a class="btn btn-lg btn-success" href="#">Saber mas</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--============================================-->
+                <div class="carousel-item">
+                    <svg class="bd-placeholder2-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+
+                    <img class="bd-placeholder2-img" width="100%" height="100%" src="images/slide3.jpg" alt="" />
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="text-carrusel">Ámbito de aplicacion</h1>
+                            <p class="text-carrusel">
+                                Establecer normas de navegacion para buques en alta mar, permite la aplicacion de reglas especiales en puertos y aguas interiores
+                                siempre y cuando se alineen con el Reglamento Internacional para Prevenir Abordaje 
+                            </p>
+                            <p>
+                                <a class="btn btn-lg btn-success" href="#">Saber mas</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--==========BOTONES NEXT Y PREV======================= -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        <!--=======FINAL DE SLIDER======-->
+
+        <!--================================================== -->
+        <!-- -->
+        <hr class="featurette-divider" />
+        <div class="container marketing">
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="#openmodal" class="btn_modal">
+                        <img class="bd-placeholder-img rounded-circle shadow-lg shadow-lg border" width="250" height="250" src="images/dishes-imag-1.JPG" alt="">
+                        <br>
+                        <br>
+                        <h3>PARTE A</h3>
+                        <h2>GENERALIDADES</h2>
+                        <p><a class="btn btn-success" href="parte_B.html">Ver mas &raquo;</a></p>
+                    </a>
+                </div>
+                <!-- /.col-lg-4 -->
+
+                <!--============================================-->
+
+                <div class="col-lg-4">
+
+                    <a href="#openmodal2" class="btn_modal">
+                        <img class="bd-placeholder-img rounded-circle shadow-lg border" width="250" height="250" src="images/dishes-imag-2.JPG" alt="" />
+                        <br>
+                        <br>
+                        <h3>PARTE B</h3>
+                        <h2>REGLAS DE RUMBO Y GOBIERNO</h2>
+                        <p><a class="btn btn-success" href="parte_C.html">Ver mas &raquo;</a></p>
+                    </a>
+                </div>
+                <!-- /.col-lg-4 -->
+
+                <!--============================================-->
+
+                <div class="col-lg-4">
+                    <a href="#openmodal3" class="btn_modal">
+                        <img class="bd-placeholder-img rounded-circle shadow-lg border" width="250" height="250" src="images/dishes-imag-3.JPG" alt="" />
+                        <br>
+                        <br>
+                        <h3>PARTE C</h3>
+                        <h2>LUCES Y MARCAS</h2>
+                        <p><a class="btn btn-success" href="parte_A.html">Ver mas &raquo;</a></p>
+                    </a>
+                </div>
+                <hr class="featurette-divider" />
+                <!--============================================-->
+            
+
+                
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider" />
+            <!--=============================================================-->
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">
+                        GENERALIDADES
+                        <span class="text-muted"></span>
+                    </h2>
+                    <p class="lead">
+                       En este espacio podemos encontrar los principios de aplicacion de este reglamento, es uno de los cuales se aplican a todos los buques en alta mar 
+                       y aguas conectadas navegable, contiene en el un conjunto de reglas especiales que las autoridades deben tener presente para puertos, rios y lagos
+                       las cuales deben coincidir con lo establecido en el Reglamento para Prevenir Abordaje en el Mar.
+                    </p>
+                </div>
+
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"  width="500" height="500" src="images/abordajesVela.jpg"  alt="">
+                   
+                </div>
+            </div>
+
+            <hr class="featurette-divider" />
+            <!--=============================================================-->
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">
+                        REGLAS DE RUMBO Y GOBIERNO
+                    </h2>
+                    <p class="lead">
+                       En este apartado podemos encontrar la parte de rumbo y gobierno, todas las reglas de esta seccion se aplican en cualquier condicio de visibilidad
+                       tener presente que en todo buque se debera mantener en todo momento una adecuada vigilancia visual y auditiva, asi como el uso de los medios disponibles para evaluar la situacion y el riesgo de colision,
+                       el apartado de velocidad de seguridad ya que todo buque debe navegar a una velocidad segura, asi evitar una colision y poder detener a una distancia apropiada segun las circustancias.
+                    </p>
+                </div>
+
+                <div class="col-md-5 order-md-1">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="images/abordaje.jpg" alt="">
+              
+                </div>
+            </div>
+
+            <hr class="featurette-divider" />
+            <!--=============================================================-->
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">
+                        LUCES Y MARCAS
+                    </h2>
+                    <p class="lead">
+                       Esta regla especifica cuando se debe utilizar las luces y las señales. las cuales deben utilizarse desde el anochecer hasta el amanecer y en cualquier otra condicion de visibilidad reducida.
+                       las señales deben ser utilizadas durante el dia. Se deja en claro el alcance minimo que deben tenr las luces de navegacion, que varian segun el tipo de buque y la luz en cuestion.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="images/home-imag-3.JPG" alt="">
+              
+                </div>
+            </div>
+
+            <hr class="featurette-divider" />
+            <!--=============================================================-->
+
+            <!-- /END THE FEATURETTES -->
+        </div>
+        <!-- /.container -->
+
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="float-end"><a class="btn btn-success" href="#">Volver arriba</a></p>
+            <p>
+                &copy; 2020–2024 Company, Inc. &middot;
+                <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+            </p>
+        </footer>
+    </main>
+
+
+    <div id="openmodal" class="modalDialog">
+        <div class="modal__container">
+            <a class="modal__close" href="#close" title="Close">X</a>
+            <img src="" alt="" id="modalImage" class="modal__image">
+            <h2 class="modal__title">GENERALIDADES</h2>
+            <p class="modal__paragraph">Va de la Regla 1 a la Regla 3</p>
+            <p><a class="btn_modal_ir" href="parte_B.html">Ver mas &raquo;<a></p>
+        </div>
+    </div>
+
+    <div id="openmodal2" class="modalDialog">
+        <div class="modal__container">
+          <a class="modal__close" href="#close" title="Close">X</a>
+                <img src="" alt="" id="modalImage" class="modal__image">
+                <h2 class="modal__title">REGLAS DE RUMBO Y GOBIERNO</h2>
+                <p class="modal__paragraph">Va de la Regla 4 a la Regla 18</p>
+                <p><a class="btn_modal_ir" href="parte_C.html">Ver mas &raquo;</a></p>
+        </div>
+    </div>
+
+    <div id="openmodal3" class="modalDialog">
+        <div class="modal__container">
+            <a class="modal__close" href="#close" title="Close">X</a>
+            <img src="" alt="" id="modalImage" class="modal__image">
+            <h2 class="modal__title">LUCES Y MARCAS</h2>
+            <p class="modal__paragraph">Va de la Regla 20 a la Regla 31</p>
+            <p><a class="btn_modal_ir" href="parte_A.html">Ver mas &raquo;</a></p>
+        </div>
+    </div>
+
+   
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+   
+</body>
+
+</html>
+ 
